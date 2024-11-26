@@ -5,11 +5,11 @@
  * course requirements at degree granting institutions only.  Not for
  * government, commercial, or other organizational use.
  *
- * Code generation for model "oneShotAdder".
+ * Code generation for model "oneshotadder".
  *
- * Model version              : 6.3
+ * Model version              : 6.4
  * Simulink Coder version : 9.8 (R2022b) 13-May-2022
- * C++ source code generated on : Tue Nov 26 14:19:17 2024
+ * C++ source code generated on : Tue Nov 26 15:46:59 2024
  */
 
 #ifndef RTWTYPES_H

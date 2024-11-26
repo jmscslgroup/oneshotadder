@@ -7,9 +7,9 @@
  *
  * Code generation for model "oneshotadder".
  *
- * Model version              : 6.3
+ * Model version              : 6.4
  * Simulink Coder version : 9.8 (R2022b) 13-May-2022
- * C++ source code generated on : Tue Nov 26 15:23:32 2024
+ * C++ source code generated on : Tue Nov 26 15:46:59 2024
  *
  * Target selection: ert.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -423,6 +423,8 @@ void oneshotadder_step(void)
   } else if (oneshotadder_DW.is_c1_oneshotadder == oneshotadder_IN_Const_th) {
     oneshotadder_B.mode = 2U;
     if (oneshotadder_sf_msg_pop_next()) {
+      oneshotadder_B.output = oneshotadder_B.EnabledSubsystem.In1.Data +
+        oneshotadder_B.EnabledSubsystem_e.In1.Data;
       oneshotadder_B.mode = 2U;
     } else if (oneshotadde_sf_msg_pop_previous()) {
       oneshotadder_DW.is_c1_oneshotadder = oneshotadder_IN_Init;

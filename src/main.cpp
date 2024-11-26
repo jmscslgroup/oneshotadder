@@ -3,9 +3,9 @@
 //
 // Code generated for Simulink model 'oneshotadder'.
 //
-// Model version                  : 6.3
+// Model version                  : 6.4
 // Simulink Coder version         : 9.8 (R2022b) 13-May-2022
-// C/C++ source code generated on : Tue Nov 26 15:23:39 2024
+// C/C++ source code generated on : Tue Nov 26 15:47:12 2024
 //
 
 #include <stdio.h>
